@@ -1,0 +1,22 @@
+@media (max-width: 1200px){
+  .dropdown-menu{
+    padding-left: 26rem;
+ }
+}
+@media (max-width: 1030px){
+  .dropdown-menu{
+    padding-left: 20rem;
+ }
+}
+@media (max-width: 991px){
+
+}
+@media (max-width: 767px){
+
+}
+@media (max-width: 575px){
+
+}
+@media (max-width: 330px){
+
+}

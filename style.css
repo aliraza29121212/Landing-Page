@@ -1,0 +1,159 @@
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+ 
+
+  nav{
+    background-color: #dbd5ca;
+  }
+  .fixed-top{
+    box-shadow: 0 0.125rem 0.675rem rgba(3 3 3 /5%);
+  }
+ .navbar{
+    padding: 1.6rem 0;
+ }
+ nav .ul_1{
+    margin-left: 5rem;
+ }
+ nav .ul_1 .nav-item a{
+color: rgb(53, 30, 30);
+font-weight: 600;
+font-size: 1.1rem;
+ }
+ nav .ul_1 .nav-item{
+    padding: 0 .4rem;
+ }
+ /* nav  #border_b{
+    border-bottom: 2px solid rgb(53, 30, 30);
+ } */
+
+ nav .ul_2 .nav-item{
+    padding: 0 .5rem;
+ }
+ .navbar-toggler span img:focus
+ {
+  border: none;
+ }
+ .dropdown{
+    position: unset;
+   
+ }
+ .dropdown-menu{
+    min-width: 100%;
+    border: none;
+    background-color: #dbd5ca;
+    padding: 1.6rem 2rem;
+    padding-left: 31rem;
+    box-shadow: 0 0.125rem 0.675rem rgba(0, 0, 0, 0.089);
+ }
+ .dropdown-menu.show {
+    display: flex;
+    text-align: center;
+}
+/* .dropdown #border_b:after{
+    content: "\f078";
+    font-family: fontawesome;
+    position: absolute;
+    font-size: 15px;
+    top: 35px;
+    right: 715px;
+  
+    transition: transform 0.3s;
+    transform: rotate(0deg);
+    font-weight: bolder;
+} */
+/* .dropdown #border_b:hover{
+    transform: rotate(90deg);
+} */
+/* .dropdown li:checked ~ a:after{
+    transform: rotate(90deg);
+  } */
+/* #border_b:checked {
+    max-height: 100vh;
+  } */
+  
+
+  /* =====================
+       sec-1
+    ======================= */
+
+    .sec-1{
+      background: #dbd5ca;
+      position: absolute;
+    }
+  .row{
+    --bs-gutter-x: -7.4rem;
+  }
+  .sec-1 .box-1{
+    position: relative;
+  }
+  .part-1-inner-content .img-1 img{
+ position: absolute;
+ top: 0px;
+  }
+  .part-1-inner-content button{
+    background: transparent;
+    border: none;
+    color: #B03725;
+    padding-top: 3.5rem;
+    font-size: 1.3rem;
+    font-weight: 500; 
+    margin-bottom: 1.2rem;
+  }
+.sec-1-info-box{
+background:   #ae9784;
+height: 45rem;
+position: relative;
+top: 325px;
+left: 4rem;
+height: auto;
+
+}
+.sec-1-info-box .inner-text{
+  padding-top: 29rem;
+  padding-left: 2rem;
+  padding-right: 4.5rem;
+}
+.sec-1-info-box .inner-text h3{
+color: white;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 1.9rem;
+word-spacing: 4px;
+
+}
+.part-2-inner-content img{
+  height: 1230px;
+}
